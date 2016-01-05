@@ -8,24 +8,22 @@ using namespace std;
 
 int main() {
     
-    double T, a, b, N;
+    int T, a, b, N, j, i;
     cin >> T;
     
-    for (int i = 0; i < T; i++)
+    for (i = 0; i < T; i++)
         {              
                     cin >> a;
                     cin >> b;
                     cin >> N;
         
-            for (int j = 0; j <= N - 1; j++) 
+            for (j = 0; j <= N - 1; j++) 
                 {
                     a += (pow (2,j) *b);
                     cout << a << " ";
                  }
             cout << endl;
-                    
-        } 
-           
-  
+    }
     return 0;
 }
+
