@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1452712080 source:c:\users\kasia\desktop\studia\iii semestr\programownie obiektowe - 3 semestr\klasy - hackerrank\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<string>
+
